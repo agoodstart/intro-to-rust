@@ -12,9 +12,12 @@
 // mod vec;
 // mod generics;
 // mod generics_part_two;
-mod generics_part_three;
+// mod generics_part_three;
 
 // mod mutality;
+// mod string_test;
+// mod error_handling_part_one;
+mod error_handling_part_two;
 
 fn main() {
     // ownership::strings();
@@ -40,5 +43,8 @@ fn main() {
     // println!("{}", vec::run());
     // generics::run();
     // generics_part_two::run();
-    generics_part_three::run();
+    // generics_part_three::run();
+    // string_test::run();
+    // error_handling_part_one::run();
+    error_handling_part_two::run();
 }
